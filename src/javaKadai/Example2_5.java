@@ -2,18 +2,18 @@ package javaKadai;
 
 public class Example2_5 {
     public static void main(String[] args) {
-    	Point point = new Point(2,1,5,6);
-    	point.kyori();
+    	Point point = new Point(1, 2);
+    	point.kyori(3, 4);
     }
 }
 
 class Point{
-    private int x1; int x2; int y1; int y2;
-    public Point(int a, int b, int c, int d) {
-    x1 = a; x2 = b; y1 = c; y2 = d;
+    private int x; int y;
+    public Point(int a, int b) {
+    x = a; y = b;
     }
-	void kyori () {
-	    double answer = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+	void kyori (int x1, int y1) {
+	    double answer = Math.sqrt((x1 - x) * (x1 - x) + (y1 - y) * (y1 - y));
 	    System.out.println(answer);
     }
 }

@@ -2,10 +2,10 @@ package javaKadai;
 
 public class Example2_3 {
 	public static void main(String[] args) {
-		Calculation1.addition(1,2);
-		Calculation1.subtraction(1,1);
-		Calculation1.multiplication(2,5);
-		Calculation1.division(10,2);
+		Calculation1.addition(1, 2);
+		Calculation1.subtraction(1, 1);
+		Calculation1.multiplication(2, 5);
+		Calculation1.division(10, 2);
     }
 }	
 
