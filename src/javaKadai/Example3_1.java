@@ -19,8 +19,7 @@ interface Shape {
 	public abstract void perimeter();
 }
 
-class Rectangle implements
-    Shape{
+class Rectangle implements Shape{
 	private int height;
 	private int width;
 	public Rectangle(int tate, int yoko) {
@@ -59,7 +58,7 @@ class Triangle implements Shape{
 		width = yoko;
 	}
 	public void area() {
-		double sum = Math.sqrt(3)*width/2*width*0.5;
+		double sum = Math.sqrt(3)*width*width/4;
 		System.out.println(sum);
 	}
 	public void perimeter() {
